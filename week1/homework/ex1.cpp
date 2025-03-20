@@ -8,7 +8,10 @@ int main()
 	cin >> n;
 	in(n);
 }
-
+//i :tinh so fibonacci
+//	Neu  n=0  tra ve 0
+//	Neu n = 1 tra ve 1
+//	Neu n<=2, tính fibonacci(n) = fibonacci(n-1) + fibonacci(n-2) bang cach goi de quy
 int fibonacci(int i)
 {
 	if (i == 0)
@@ -26,7 +29,7 @@ int fibonacci(int i)
 	
 
 }
-
+//ham in de in tung gia tri fibonacci tuong ung
 void in(int n)
 {
 	for (int i = 0; i < n; i++)
