@@ -38,7 +38,7 @@ void Try(int i) {
 int main()
 {
 	cin >> n;
-	for (int i = 0; i <= 99; i++) {
+	for (int i = 0; i <100; i++) {
 		cot[i] = d1[i] = d2[i] = 1;
 	}
 	Try(1);
