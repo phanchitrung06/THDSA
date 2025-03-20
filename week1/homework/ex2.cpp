@@ -12,7 +12,7 @@ int main()
 // Neu n=0 tra ve 0
 // Neu n = 1 tra ve 1
 // Neu n >= 2, tinh factorial(n) = n * factorial(n - 1) bang cach goi de quy
-// Va in ra gia tri tu giai thua thu n
+// Va in ra gia tri tai giai thua thu n
 
 int factorial(int n)
 {
