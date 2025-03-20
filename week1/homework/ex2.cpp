@@ -8,6 +8,10 @@ int main()
 	cin >> n;
 	cout<< factorial(n);
 }
+// phuong phap su dung de quy
+// Neu n = 1 tra ve 1
+// Neu n >= 2, tinh factorial(n) = n * factorial(n - 1) bang cach goi de quy
+// Va in ra gia tri tu giai thua thu n
 
 int factorial(int n)
 {
