@@ -34,7 +34,7 @@ int find(vector <int> a, int target)
 
 	}
 	if (t == false) return 0;
-	
+	if (min == 0) return 1;
 		return min;
 }
 
