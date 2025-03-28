@@ -8,7 +8,7 @@ int find(vector <int> a, int target)
 	int tong = 0;
 	int l = 0;
 	int r = 0;
-	int min = 6;
+	int min = a.size();
 	while (l < a.size() && r <=a.size())
 	{
 
